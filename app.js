@@ -7,6 +7,7 @@ mongoose.connect('mongodb://localhost/database');
 
 // Models
 
+// note: I didn't try this so I have no idea if it actually works
 require('./models/blogpost');
 
 // Configuration
